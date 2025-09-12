@@ -1,0 +1,32 @@
+### Listar Usuarios
+GET http://localhost:8000/api/user
+
+### Guardar usuario
+POST http://localhost:8000/api/user
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "Maria",
+    "email": "maria@mail.com",
+    "password": "maria54321"
+}
+
+### Mostrar usuario
+GET http://localhost:8000/api/user/3
+Accept: application/json
+
+### Modificar usuario
+PUT http://localhost:8000/api/user/4
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Maria Modificada",
+  "email": "maria.modoficada@mail.com",
+  "password": "maria12345"
+
+}
+
+### Eliminar usuario
+DELETE http://localhost:8000/api/user/4
