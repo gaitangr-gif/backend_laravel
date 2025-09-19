@@ -1,5 +1,7 @@
 ### Listar Usuarios
 GET http://localhost:8000/api/user
+Accept: application/json
+Authorization: Bearer 8|4b3frZbdWlk4R4z7bczR0An5scuDyQBL9zjrYxcK8559bf1a
 
 ### Guardar usuario
 POST http://localhost:8000/api/user

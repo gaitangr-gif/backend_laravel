@@ -1,0 +1,19 @@
+### Login
+POST http://localhost:8000/api/v1/auth/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "maria@mail.com",
+    "password": "maria54321"
+}
+
+### Perfil
+GET http://localhost:8000/api/v1/auth/profile
+Accept: application/json
+Authorization: Bearer 7|1ED7RBwhnaBYtetTz8XlOqTOZZE5p8CHJJbF3OVY3a0d6af6
+
+### Logout
+POST  http://localhost:8000/api/v1/auth/logout
+Accept: application/json
+Authorization: Bearer 7|1ED7RBwhnaBYtetTz8XlOqTOZZE5p8CHJJbF3OVY3a0d6af6
