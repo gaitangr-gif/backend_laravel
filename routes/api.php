@@ -21,10 +21,10 @@ route::middleware('auth:sanctum')->group(function () {
 
 // -> Auth (Rutas de autenticcacion) <-
 // Comentario1: /api ya existe como prefijo en laravel entonces no es necesario ponerlo
-// Por eso nuestras rutas inician /v1 que significa: version uno. Nos servira para versionar nuestras rutas
+// Por eso nuestras rutas inician /v1 que significa: version 1. Nos servira para versionar nuestras rutas
 // Comentario2: Cambiamos el orden de las rutas para ordenar la seguridad
 // login y register son publicas es decir todos podran acceder
-// profile y logauth solo se accedera si el usuario esta autenticado. por eso la restringiremos con middleware
+// profile y logout solo se accedera si el usuario esta autenticado. por eso la restringiremos con middleware
 
 // Para la seguridad Agruparemos las rutas con una funcion anonima Group(function())
 // y colocamos el prefijo /v1/auth para no repetir codigo

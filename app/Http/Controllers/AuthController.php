@@ -29,7 +29,7 @@ class AuthController extends Controller
 
     //Funcion Register
     public function funRegister(Request $request) {
-        return "Funcion Registro";
+        //return "Funcion Registro";
     }
 
     //Funcion Profile
